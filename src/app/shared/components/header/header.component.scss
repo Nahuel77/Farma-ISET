@@ -1,0 +1,9 @@
+.top {
+  display: flex;
+  height: 8vh;
+  top: 0;
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+}

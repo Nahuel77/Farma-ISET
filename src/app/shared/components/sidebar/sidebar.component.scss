@@ -1,0 +1,69 @@
+.sidebar-container {
+   width: 100vw;
+   height: 100vh;
+   background-color: #131729;
+
+   .sidebar {
+      background: #1c2638;
+      width: 18vw;
+      height: 100%;
+
+      .sidebar-header {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+         align-items: center;
+         text-align: center;
+
+         .title {
+            margin: 5rem 0 1rem 0;
+            font-size: 2rem;
+            color: #EEE;
+         }
+      }
+
+      .sidebar-menu {
+         display: flex;
+         width: 100%;
+         flex-direction: column;
+         align-items: center;
+
+         .button-container {
+            button {
+               mat-icon {
+                  font-size: 1.5rem;
+                  color: #32e0c9;
+                  width: auto;
+                  height: auto;
+               }
+
+               .user-name {
+                  color: #32e0c9;
+                  font-size: 1rem;
+               }
+            }
+         }
+      }
+   }
+
+   .drawer-content {
+      background-color: #131729;
+      width: auto;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin: 0;
+      padding: 0;
+      .theme-toggle {
+         position: fixed;
+         right: 0;
+         top: 0;
+         margin: 10px;
+         .theme-icon{
+            color: #EEE;
+         }
+      }
+   }
+}
