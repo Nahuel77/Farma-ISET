@@ -1,5 +1,5 @@
 <mat-drawer-container class="sidebar-container">
-    <mat-drawer mode="side" opened class="sidebar">
+    <mat-drawer mode="side" opened class="tertiary sidebar">
         <div class="sidebar-header">
             <span class="title roboto-bold">Farma-ISET</span>
         </div>
@@ -12,10 +12,8 @@
             </div>
         </div>
     </mat-drawer>
-    <mat-drawer-content class="drawer-content">
-        <button mat-icon-button class="theme-toggle">
-            <mat-icon class="theme-icon">nightlight</mat-icon>
-        </button>
+    <mat-drawer-content class="primary drawer-content">
+        <app-header class="header"></app-header>
         <app-login></app-login>
     </mat-drawer-content>
 </mat-drawer-container>

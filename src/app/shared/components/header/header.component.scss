@@ -1,9 +1,13 @@
-.top {
-  display: flex;
-  height: 8vh;
-  top: 0;
+.title{
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
 
-  .example-spacer {
-    flex: 1 1 auto;
-  }
+.theme-toggle {
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  transform: scale(0.5);
 }
