@@ -1,13 +1,16 @@
-.title{
-  padding-top: 1rem;
-  font-size: 2rem;
-  font-weight: 500;
-}
+.header-content {
+  height: 3rem;
+  .title {
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: 500;
+  }
 
-.theme-toggle {
-  position: fixed;
-  right: 0;
-  top: 0;
-  margin: 10px;
-  transform: scale(0.5);
+  .theme-toggle {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    transform: scale(0.5);
+  }
 }
